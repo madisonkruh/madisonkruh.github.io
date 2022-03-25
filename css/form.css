@@ -1,26 +1,18 @@
 form {
-  /* Center the form on the page */
   width: 100%;
-  /* Form outline */
   padding: 1em;
   border: none;
   text-align: center;
 }
 
 label {
-  /* Uniform size & alignment */
   font-family: "Satoshi-Light";
-  /* display: block; */
   text-align: left;
 }
 
 input,
 textarea {
-  /* To make sure that all text fields have the same font settings
-         By default, textareas have a monospace font */
   font: 1em "Satoshi-Light";
-
-  /* Match form field borders */
   border: 1px solid #000;
 }
 
@@ -44,13 +36,10 @@ textarea {
 }
 
 .button {
-  /* Align buttons with the text fields */
-  padding-top: 10px; /* same size as the label elements */
+  padding-top: 10px; 
 }
 
 button {
-  /* This extra margin represent roughly the same space as the space
-         between the labels and their text fields */
   font-family: "Satoshi-Light";
   background-color: rgba(255, 2, 2, 0.4);
   border: 0.5px solid rgb(255, 2, 2);
