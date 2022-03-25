@@ -1,9 +1,7 @@
 
 body {
-  font-family: 'Satoshi-Medium';
-  /* font-family: 'Satoshi', helvetica, Verdana, Arial, sans-serif; */
+  font-family: 'Satoshi-Medium', helvetica, Verdana, Arial, sans-serif;
 }
-
 
 .row:after {
   content: "";
