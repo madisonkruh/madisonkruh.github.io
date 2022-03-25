@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/font.css" />
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/img/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/img/favicon-16x16.png"
+      sizes="16x16"
+    />
     <title>Home Page</title>
   </head>
   <body>
-    <div id="nav-placeholder"></div>
+    <nav class="navbar">
+      <img src="/img/logo.png" alt="Logo" class="logo" />
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
+          <li><a href="/contact.html">CONTACT</a></li>
+          <li><a href="/projects.html">PROJECTS</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <script>
-      $(function () {
-        $("#nav-placeholder").load("nav.html");
-      });
-    </script>
-    <!--end of Navigation bar-->
     <div class="row">
       <div class="col-1"></div>
-      <div class="col-5"><img src="./img/dp.jpg" /></div>
+      <div class="col-5"><img src="/img/dp.jpg" /></div>
       <div class="col-5">
         <div>
           <ul>
             <p>Hi, My Name is Madison.</p>
             <li class="_3lu8e">
               <a href="mailto:madison.kruh@gmail.com" target="_self"
-                ><img src="./img/email.png" alt="Email" />
+                ><img src="/img/email.png" alt="Email" />
               </a>
             </li>
             <li class="_3lu8e">
               <a href="https://www.linkedin.com/in/madisonkruh/" target="_blank"
-                ><img src="./img/linkedin.png" alt="LinkedIn" />
+                ><img src="/img/linkedin.png" alt="LinkedIn" />
               </a>
             </li>
             <li class="_3lu8e">
               <a href="https://github.com/madisonkruh" target="_blank"
-                ><img src="./img/github.png" alt="GitHub" />
+                ><img src="/img/github.png" alt="GitHub" />
               </a>
             </li>
           </ul>
