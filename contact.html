@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/font.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <title>Contact Page</title>
   </head>
   <body>
@@ -24,5 +25,34 @@
         </ul>
       </div>
     </nav>
+
+    <div>
+    <!-- The action attribute defines the location (URL) where the form's collected data should be sent when it is submitted.
+The method attribute defines which HTTP method to send the data with (usually get or post). -->
+    <form action="/my-handling-form-page" method="post">
+      <!-- <li> elements are there to conveniently structure our code and make styling easier -->
+
+      <div class="nextto">
+        <label for="name">First Name</label>
+        <input type="text" id="firstname" name="user_name" />
+      </div>
+      <div class="nextto">
+        <label for="name">Last Name</label>
+        <input type="text" id="lastname" name="user_name" />
+      </div>
+      <div class="nextto">
+        <label for="mail">Email *</label>
+        <input type="email" id="mail" name="user_email" />
+      </div>
+      <div >
+        <label for="msg" >Message</label>
+        <br />
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+
+      <div class="button">
+        <button type="submit">Send your message</button>
+      </div>
+    </form>
   </body>
 </html>
