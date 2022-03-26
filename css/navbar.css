@@ -74,7 +74,7 @@ body {
 }
 
 /* if our screen size is 400px or less */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
